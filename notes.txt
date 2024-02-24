@@ -1,0 +1,5 @@
+home page 
+
+function on create :
+
+we should delete the comments to create the items in each list.

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+   <item android:title="Foodie Zone"
+    android:id="@+id/search"
+    android:icon="@drawable/ic_search_svgrepo_com"
+    app:showAsAction="ifRoom">
+    </item>
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home"/>
+
+        <item android:id="@+id/logout"
+            android:icon="@drawable/ic_baseline_login_24"
+            android:title="Log Out"/>
+
+        <item android:id="@+id/shopingCart"
+            android:icon="@drawable/ic_baseline_shopping_cart_24"
+            android:title="Shooping cart"/>
+
+        <item android:id="@+id/listOrder"
+            android:icon="@drawable/ic_baseline_shopping_bag_24"
+            android:title="My Order"/>
+
+    </group>
+
+</menu>
+
